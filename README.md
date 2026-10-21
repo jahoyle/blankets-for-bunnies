@@ -26,7 +26,8 @@ About Event opens four pages with Previous/Next navigation and a return to the
 links page. Text and blanket steps reflow on narrower screens.
 On mobile, transparent side-arrow controls stay at the viewport edges while
 scrolling, so readers can navigate without returning to the top or bottom.
-Only available directions are shown; navigation does not wrap at either end.
+The first page's left arrow returns to the home links page. The last page has
+only a previous arrow; navigation does not wrap.
 
 | Page | File | Figma node |
 | --- | --- | --- |
