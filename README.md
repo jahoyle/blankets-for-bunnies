@@ -24,6 +24,9 @@ SharePoint; visitors may need to sign in to these services.
 
 About Event opens four pages with Previous/Next navigation and a return to the
 links page. Text and blanket steps reflow on narrower screens.
+On mobile, transparent side-arrow controls stay at the viewport edges while
+scrolling, so readers can navigate without returning to the top or bottom.
+Only available directions are shown; navigation does not wrap at either end.
 
 | Page | File | Figma node |
 | --- | --- | --- |
