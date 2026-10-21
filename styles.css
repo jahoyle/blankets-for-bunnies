@@ -148,7 +148,7 @@ a[aria-disabled="true"] {
   cursor: not-allowed;
 }
 
-a:focus-visible {
+a:focus {
   outline: 3px solid #904000;
   outline-offset: 4px;
 }
