@@ -32,18 +32,22 @@ links page. Text and blanket steps reflow on narrower screens.
 | Blanket instructions | `blanket.html` | `547:483` |
 | About Rabbit Haven | `rabbit-haven.html` | `557:1554` |
 
-The last page's QR code encodes the approved address
-`https://jahoyle.github.io/blankets-for-bunnies/`. It is also a clickable link.
-It will not lead to the event page until GitHub Pages is published.
-The PNG uses error correction M and a four-module white quiet zone, and is
-displayed at 164px so it remains scannable. If the final hosting address changes,
-regenerate the PNG and update its link and alternative text in `rabbit-haven.html`.
+The last page has a 25-by-23px orange link icon pointing to
+`https://www.rabbithaven.org/`, with a 44px touch target.
+The separate QR asset, `assets/about/event-site-qr.png`, encodes the approved
+event address `https://jahoyle.github.io/blankets-for-bunnies/`. It is retained
+for sharing, but no longer displayed on the site. It will not lead to the event
+page until GitHub Pages is published. The PNG uses error correction M and a
+four-module white quiet zone. If the final hosting address changes, regenerate
+the PNG before sharing it.
 QR generation/decoding tools are not runtime dependencies.
 
 The step 3 photo's two size digits were corrected locally to read 4-by-4 inches;
 the rest of the photo is unchanged. The original is retained as
 `assets/about/fleece-corners.png`. Step 6 uses an AI-generated illustration of a
-finished blanket, not a photograph of an actual event donation. Both image
+finished blanket, locally retouched to remove the folded corner using the
+unfolded portion of the same illustration. It is not a photograph of an actual
+event donation. Both image
 updates were also applied to the supplied Figma instruction page, preserving
 the existing image slots and crop settings.
 
