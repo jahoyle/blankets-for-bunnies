@@ -124,7 +124,7 @@ h1 {
 }
 
 .sponsor .sponsor-bunny {
-  right: 20px;
+  left: calc(100% + 16px);
   top: 50%;
   transform: translateY(-50%) rotate(8.93deg);
 }
