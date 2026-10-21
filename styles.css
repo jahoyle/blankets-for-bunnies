@@ -1,0 +1,174 @@
+:root {
+  color-scheme: light;
+  --page: #ececec;
+  --pill: #d9d9d9;
+  --orange: #fe6318;
+  --ink: #000;
+  font-family: "Aptos Narrow", "Arial Narrow", "Liberation Sans Narrow", sans-serif;
+  color: var(--ink);
+  background: var(--page);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.event-page {
+  width: min(100%, 402px);
+  min-height: 100svh;
+  margin-inline: auto;
+  padding: 79.469px 26px 64px 28px;
+}
+
+.event-header {
+  text-align: center;
+  margin-left: -2px;
+}
+
+.portrait {
+  display: block;
+  width: 110.594px;
+  height: 110.594px;
+  margin-inline: auto;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 17.219px 0 0;
+  color: var(--orange);
+  font-size: 21.192px;
+  font-weight: 700;
+  font-stretch: condensed;
+  line-height: 26px;
+}
+
+.subtitle {
+  margin: -3.282px 0 0;
+  font-family: "QESamRoberts2", "Segoe Print", "Bradley Hand", cursive;
+  font-size: 26.416px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.event-links {
+  display: grid;
+  gap: 16.556px;
+  margin-top: 26px;
+}
+
+.event-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  border-radius: 29.47px;
+  color: var(--ink);
+  background: var(--pill);
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.event-link.about,
+.event-link.donate {
+  min-height: 59px;
+}
+
+.event-link span {
+  position: relative;
+  left: -4px;
+}
+
+.doodle {
+  position: absolute;
+  display: block;
+  /* SVGs retain their intrinsic dimensions; only the Figma rotation is applied. */
+}
+
+.calendar {
+  left: calc(50% + 57.18px);
+  top: 14.38px;
+  transform: rotate(13.99deg);
+}
+
+.pointer {
+  left: calc(50% - 89px);
+  top: 15.444px;
+}
+
+.stopwatch {
+  left: calc(50% + 84.94px);
+  top: 14.94px;
+  transform: rotate(26.33deg);
+}
+
+.donation {
+  left: calc(50% - 107.96px);
+  top: 16.1px;
+  transform: rotate(-6.76deg);
+}
+
+.sponsor-bunny {
+  left: calc(50% + 70.98px);
+  top: 14.81px;
+  transform: rotate(8.93deg);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: 5.644px auto 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.social-link img {
+  display: block;
+}
+
+.facebook img {
+  margin-top: 2.861px;
+}
+
+a[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+a:focus-visible {
+  outline: 3px solid #904000;
+  outline-offset: 4px;
+}
+
+a[href]:hover {
+  background-color: #cdcdcd;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 359px) {
+  .event-page {
+    padding-inline: 16px;
+  }
+}
