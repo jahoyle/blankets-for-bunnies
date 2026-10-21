@@ -12,11 +12,15 @@ Relative paths support a GitHub Pages project URL as well as a custom domain.
 ## Content still needed before launch
 
 - Confirm the final subtitle; the current text is the Figma placeholder.
-- Supply the destinations for About Event, Rabbit Haven.org, Submit volunteer
-  time, Make a donation, Sponsor a bunny, Facebook, Instagram, and Give.
+- Supply the text for the planned About Event page.
+- Supply the destinations for Facebook, Instagram, and Give.
 - Supply web-licensed Aptos Narrow (regular/bold) and QESamRoberts2 font files
   or approve alternative fonts. Currently the page uses these fonts when
   installed, with system fallbacks; typography varies by device.
+
+The Rabbit Haven, volunteer time, donation, and monthly bunny sponsor buttons
+use the confirmed destinations. The volunteer and donation links point to
+Microsoft's Benevity portal; visitors may need to sign in there.
 
 Unconfigured links intentionally have no `href`. They expose their unavailable
 state to assistive technology and a native tooltip on hover. To activate each

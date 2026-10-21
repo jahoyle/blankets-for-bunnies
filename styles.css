@@ -113,9 +113,20 @@ h1 {
   transform: rotate(-6.76deg);
 }
 
-.sponsor-bunny {
-  left: calc(50% + 70.98px);
-  top: 14.81px;
+.event-link.sponsor {
+  gap: 16px;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.sponsor span {
+  left: 0;
+  min-width: 0;
+}
+
+.sponsor .sponsor-bunny {
+  position: static;
+  flex-shrink: 0;
   transform: rotate(8.93deg);
 }
 
