@@ -11,7 +11,6 @@ Relative paths support a GitHub Pages project URL as well as a custom domain.
 
 ## Content still needed before launch
 
-- Confirm the final subtitle; the current text is the Figma placeholder.
 - Supply the text for the planned About Event page.
 - Supply web-licensed Aptos Narrow (regular/bold) and QESamRoberts2 font files
   or approve alternative fonts. Currently the page uses these fonts when
