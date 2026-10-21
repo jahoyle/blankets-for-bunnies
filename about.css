@@ -335,7 +335,8 @@
   width: 119.16%;
 }
 
-.crop-ties {
+.crop-ties,
+.crop-finished {
   inset: 0;
   width: 100%;
   object-fit: cover;
@@ -498,39 +499,28 @@
   .blanket-step .step-photo {
     position: relative;
     inset: auto;
-    align-self: flex-end;
+    order: 2;
+    align-self: center;
   }
 
   .blanket-step .step-arrow {
-    left: 4px;
-    top: auto;
-    bottom: 40px;
-    transform: rotate(-90deg);
-  }
-
-  .step-two .step-arrow {
-    left: -18px;
-    bottom: 24px;
-    transform: rotate(-70deg);
-  }
-
-  .step-three .step-arrow {
-    left: 12px;
-    transform: rotate(-90deg) scaleY(-1);
+    position: relative;
+    inset: auto;
+    order: 1;
+    align-self: center;
+    margin-block: 8px;
   }
 
   .step-four .step-arrow {
-    transform: rotate(70deg);
+    transform: rotate(180deg);
   }
 
   .step-five .step-arrow {
-    left: 6px;
-    bottom: 32px;
-    transform: rotate(60deg);
+    transform: rotate(196.71deg);
   }
 
   .step-six .step-arrow {
-    transform: rotate(90deg);
+    transform: rotate(43.81deg);
   }
 }
 

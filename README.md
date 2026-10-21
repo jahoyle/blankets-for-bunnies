@@ -6,8 +6,9 @@ A mobile-friendly, build-free event links page based on [the Figma design](https
 
 Run `python -m http.server 8000 --bind 127.0.0.1` from the repository, then open
 `http://127.0.0.1:8000`. No packages, build step, or JavaScript are required.
-The supplied Figma artwork is stored locally and unmodified. The event-site QR
-code is generated locally, not fetched from an external QR service.
+The supplied Figma artwork is stored locally. The two user-requested image
+corrections are described below. The event-site QR code is generated locally,
+not fetched from an external QR service.
 Relative paths support a GitHub Pages project URL as well as a custom domain.
 
 ## Content still needed before launch
@@ -39,9 +40,12 @@ displayed at 164px so it remains scannable. If the final hosting address changes
 regenerate the PNG and update its link and alternative text in `rabbit-haven.html`.
 QR generation/decoding tools are not runtime dependencies.
 
-The supplied instruction design has one content discrepancy: step 3 says to cut
-4-by-4-inch corners, while its reference photo shows a 5-by-5-inch template.
-Both are preserved from Figma pending clarification.
+The step 3 photo's two size digits were corrected locally to read 4-by-4 inches;
+the rest of the photo is unchanged. The original is retained as
+`assets/about/fleece-corners.png`. Step 6 uses an AI-generated illustration of a
+finished blanket, not a photograph of an actual event donation. Both image
+updates were also applied to the supplied Figma instruction page, preserving
+the existing image slots and crop settings.
 
 The footer preserves the supplied icon artwork at its original dimensions,
 with equal visible gaps and separate 44px touch targets. The Facebook artwork
