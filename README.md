@@ -11,11 +11,11 @@ corrections are described below. The event-site QR code is generated locally,
 not fetched from an external QR service.
 Relative paths support a GitHub Pages project URL as well as a custom domain.
 
-## Content still needed before launch
+## Typography
 
-- Supply web-licensed Aptos Narrow (regular/bold) and QESamRoberts2 font files
-  or approve alternative fonts. Currently the page uses these fonts when
-  installed, with system fallbacks; typography varies by device.
+The page uses Aptos Narrow (regular/bold) and QESamRoberts2 when installed,
+with system fallbacks; typography varies by device. Consistent typography
+would require web-licensed font files or approved alternative web fonts.
 
 The Rabbit Haven, volunteer time, donation, monthly bunny sponsor, Facebook,
 Instagram, and Give links use the confirmed destinations. The volunteer and
@@ -40,8 +40,7 @@ The last page has a 25-by-23px orange link icon pointing to
 `https://www.rabbithaven.org/`, with a 44px touch target.
 The separate QR asset, `assets/about/event-site-qr.png`, encodes the approved
 event address `https://jahoyle.github.io/blankets-for-bunnies/`. It is retained
-for sharing, but no longer displayed on the site. It will not lead to the event
-page until GitHub Pages is published. The PNG uses error correction M and a
+for sharing, but no longer displayed on the site. The PNG uses error correction M and a
 four-module white quiet zone. If the final hosting address changes, regenerate
 the PNG before sharing it.
 QR generation/decoding tools are not runtime dependencies.
@@ -66,7 +65,7 @@ cooperating search engines not list it; this is **not access control**. Anyone
 with its URL can view a published page, and repository contents are public.
 Do not put private event information or credentials here.
 
-GitHub Pages has not been enabled, and there is no automatic deployment workflow,
-expiration date, or takedown timer. Once content and destinations are approved,
-merge the implementation and enable Pages for the root of `main` in this
-repository's settings. Until then, use local previews only.
+The live site is hosted at `https://jahoyle.github.io/blankets-for-bunnies/`.
+GitHub Pages publishes the root of `main` in this repository; pushes to `main`
+automatically update the site. Feature-branch changes are not published until
+they reach `main`. There is no expiration date or automatic takedown timer.
