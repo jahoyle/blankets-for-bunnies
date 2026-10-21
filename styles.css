@@ -152,6 +152,8 @@ h1 {
 
 .facebook img {
   margin-top: 2.861px;
+  /* Match the visible gap between Instagram and Give. */
+  transform: translateX(15.022px);
 }
 
 a[aria-disabled="true"] {
