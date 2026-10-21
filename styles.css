@@ -114,8 +114,7 @@ h1 {
 }
 
 .event-link.sponsor {
-  gap: 16px;
-  padding: 12px 20px;
+  padding: 12px 52px;
   text-align: center;
 }
 
@@ -125,9 +124,9 @@ h1 {
 }
 
 .sponsor .sponsor-bunny {
-  position: static;
-  flex-shrink: 0;
-  transform: rotate(8.93deg);
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(8.93deg);
 }
 
 .social-links {
